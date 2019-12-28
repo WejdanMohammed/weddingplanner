@@ -1,0 +1,158 @@
+<html>
+<head>
+    <title>Bootstrap Web Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+		 $('.nav-tabs a').click(function () {
+                $('.nav-tabs li').removeClass('active');
+                $(this).parent().addClass('active')
+            })
+
+
+        })
+    </script>
+	<style>
+	body{
+            background: url("hall7.jpg");
+            background-repeat: no-repeat;
+			 background-size: cover;
+           
+            padding: 50.8px;
+        }
+        .thumbnail img{
+            height: 200px;
+            width:100%
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-collapse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><span style="font-family: Engravers MT"> Dream Wedding </span> </a>
+                </div>
+
+                <ul class="nav navbar-nav">
+                    <li><a href="Home.html">Home</a></li>
+					 <li class="active"><a href="store.html">store</a></li>
+					  <li><a href="Forum.html">Forum</a></li>
+					  </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Contact</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+
+            </div>
+        </nav>
+		<div class="container" style="position" >
+    <div class="row">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 70%;margin: auto">
+
+    <ul class="nav nav-tabs  col-xs-10">
+       <li class="active"><a href="Adress.html">Wedding Dress</a></li>
+        <li><a href="suit.html">Wedding Suit</a></li>
+        <li><a href="flower.html">Wedding Flower</a></li>
+        <li><a href="hall.html">Wedding Hall</a></li>
+        <li><a href="cake.html">Wedding Cake</a></li>
+</ul>
+            <div class="col-xs-2">
+            <div class="panel-group" id="accordion">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#f1" data-parent="#accordion" data-toggle="collapse">Prices</a>
+                </h4>
+            </div>
+            <div id="f1" class="collapse panel-collapse">
+                <div class="list-group">
+                    <a href="#" class="list-group-item">1000-2000</a>
+                    <a href="#" class="list-group-item">2000-3000</a>
+                    <a href="#" class="list-group-item">3000-4000</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#f2" data-parent="#accordion" data-toggle="collapse">Companies</a>
+                </h4>
+            </div>
+            <div id="f2" class="collapse panel-collapse">
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Toshiba</a>
+                    <a href="#" class="list-group-item">HP</a>
+                    <a href="#" class="list-group-item">Dell</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#f3" data-parent="#accordion" data-toggle="collapse">Condition</a>
+                </h4>
+            </div>
+            <div id="f3" class="collapse panel-collapse">
+                <div class="list-group">
+                    <a href="#" class="list-group-item">New</a>
+                    <a href="#" class="list-group-item">Used</a> 
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+		
+		
+		
+		
+		
+		     </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4 thumbnail well well-sm">
+            <img src="flower2.jpg">
+            <div class="caption">flower<span style="float: right" >150SDG</span></div><br>
+			<button class="btn btn-success ">Buy</button><br>
+			<br>
+			<img src="flower3.jpg">
+            <div class="caption">flower<span style="float: right" >250SDG</span></div><br>
+			<button class="btn btn-success ">Buy</button><br>
+
+        </div>
+        <div class="col-xs-4 thumbnail well well-sm">
+            <img src="flower4.jpg">
+            <div class="caption">flower<span style="float: right" >350SDG</span></div><br>
+			<button class="btn btn-success ">Buy</button><br>
+			<br>
+			<img src="flower5.jpg">
+            <div class="caption">flower<span style="float: right" >250SDG</span></div><br>
+			<button class="btn btn-success ">Buy</button><br>
+        </div>
+        <div class="col-xs-4 thumbnail well well-sm">
+            <img src="flower6.jpg">
+            <div class="caption">flower <span style="float: right">200SDG</span></div><br>
+			<button class="btn btn-success ">Buy</button><br>
+			<br>
+			<img src="flower7.jpg">
+            <div class="caption">flower<span style="float: right" >400SDG</span></div><br>
+			<button class="btn btn-success ">Buy</button><br>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>Bootstrap Web Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+        })
+    </script>
+    <style>
+        body{
+            background: url("wed.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding: 50.8px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-collapse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><span style="font-family: Engravers MT"> Dream Wedding </span> </a>
+                </div>
+
+                <ul class="nav navbar-nav">
+                    <li><a href="Home.html">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">About The Team</a></li>
+                            <li><a href="#">Our Works</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Store<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="wedding_venues.html">Wedding Venues</a></li>
+                            <li><a href="#">Wedding Dressing</a></li>
+                            <li><a href="#">Wedding Bouquets</a></li>
+                            <li><a href="#">Wedding Cakes</a></li>
+                            <li><a href="#">Makeup Artistes</a></li>
+                            <li><a href="#">Wedding Photographers</a></li>
+                        </ul>
+                    </li>
+
+                    <li ><a href="Forum.html">Forum</a></li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Contact</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#f1" data-parent="#accordion" data-toggle="collapse">Prices</a>
+                    </h4>
+                </div>
+                <div id="f1" class="collapse panel-collapse">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">1000-2000</a>
+                        <a href="#" class="list-group-item">2000-3000</a>
+                        <a href="#" class="list-group-item">3000-4000</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#f2" data-parent="#accordion" data-toggle="collapse">Companies</a>
+                    </h4>
+                </div>
+                <div id="f2" class="collapse panel-collapse">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">Toshiba</a>
+                        <a href="#" class="list-group-item">HP</a>
+                        <a href="#" class="list-group-item">Dell</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#f3" data-parent="#accordion" data-toggle="collapse">Condition</a>
+                    </h4>
+                </div>
+                <div id="f3" class="collapse panel-collapse">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">New</a>
+                        <a href="#" class="list-group-item">Used</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

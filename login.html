@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>Log in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('button:first').click(function () {
+                user=$('input:first').val();
+                pass=$('input:last').val();
+                if(user=='ali' && pass=='1234')
+                    $('.alert-success').addClass('in')
+                else
+                    $('.alert-danger').addClass('in')
+            })
+        })
+    </script>
+    <style>
+        body{
+            background: url("form.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 60px;
+            text-align: center;
+        }
+        button{
+            width: 130px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-collapse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><span style="font-family: Engravers MT"> Dream Wedding </span> </a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="storee.html">Store</a></li>
+				<li><a href="Forum.html">Forum</a></li> 
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Contact</a></li>
+                <li class="active"><a href="contactt.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container">
+        <div class="well">
+            <div class="row">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-xs-2 control-label">Username</label>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-2  control-label">Password</label>
+                        <div class="col-xs-10">
+                            <input type="password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-2">
+                        <button class="btn btn-success">Log in</button>
+                        <button class="btn btn-success"><a href="Get Start.html"> Sign up</a></button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-success fade">
+        Succefully Logined !
+    </div>
+    <div class="alert alert-danger fade">
+        Wrong Username or Password !
+    </div>
+</div>
+</div>
+</body>
+</html>
